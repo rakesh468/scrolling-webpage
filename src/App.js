@@ -23,7 +23,7 @@ function App() {
 
   const fetchcomments = async () => {
     const response = await fetch(
-      `https://jsonplaceholder.typicode.com/comments?_page=${page}&_limit=20`
+      `https://jsonplaceholder.typicode.com/comments?_page=${page}&_limit=20` //using json placeholder api to render the data//
     );
     const data = await response.json();
     return data;
