@@ -8,6 +8,7 @@ function Comment({ item: { email, body } }) {
           <p className="card-subtitle mb-2 text-center">
             <b>Email:</b> {email}
           </p>
+          <hr />
           <p className="card-text">
             <b>Comments : </b>
             {body}
